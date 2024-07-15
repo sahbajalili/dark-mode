@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all ease 240ms 30ms;
+    -webkit-transition: all ease 240ms 30ms;
+    -moz-transition: all ease 240ms 30ms;
+    -ms-transition: all ease 240ms 30ms;
+    -o-transition: all ease 240ms 30ms;
+}
+
+.d-flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'poppins' , sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5fdff;
+}
+
+.container {
+    gap: 40px;
+}
+
+.light , .dark {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.light span , .dark span {
+    width: 50px;
+}
+
+.light svg {
+    width: 30px;
+    color: rgb(255, 230, 0);
+}
+
+.dark svg {
+    width: 25px;
+    color: rgb(22, 56, 137);
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(70, 186, 244);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: relative;
+}
+
+.button span {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
