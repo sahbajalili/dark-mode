@@ -11,7 +11,7 @@ let lightFlag = true
 
 function click() {
     if (lightFlag) {
-        buttonClick.style.left = '55px' 
+        buttonClick.style.left = '40px' 
         body.style.background = '#02011c'
         lightText.style.color = '#ffffff'
         darkText.style.color = '#ffffff'
